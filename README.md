@@ -21,7 +21,6 @@ composer install
 
 2. Update environment file .env
 
-
 ```sh
 DB_CONNECTION=mysql
 DB_HOST=YOUR_DB_HOST
@@ -30,6 +29,12 @@ DB_DATABASE=YOUR_DB_NAME
 DB_USERNAME=YOUR_DB_USERNAME
 DB_PASSWORD=YOUR_DB_PASSWORD
 
+```
+
+Migrate and seed the database
+
+```sh
+php artisan migrate --seed
 ```
 
 3. Build with vite
