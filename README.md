@@ -14,7 +14,7 @@
 1. Install the dependencies and devDependencies
 
 ```sh
-git clone  Dropbox | [plugins/dropbox/README.md][PlDb]
+git clone  [https://github.com/makashtekar/jira-test][jira-test]
 cd jira-test
 composer install
 ```
